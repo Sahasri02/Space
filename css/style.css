@@ -553,7 +553,7 @@ body {
 /*mobile*/
 @media (max-width: 480px) {
     body {
-        background-image: url(https://i.postimg.cc/50LDkbv7/background-home-mobile.jpg);
+        background-image: url(https://github.com/Sahasri02/Space/blob/main/assets/home/background-home-mobile.jpg);
     }
 		/*.h1{
 			position: absolute;
@@ -1034,6 +1034,6 @@ font-family: 'Bellefair';
 /*desktop*/
 @media (min-width: 1025px) {
     body {
-	    background-image: url(https://i.postimg.cc/90GVTyJf/background-home-desktop.jpg);
+	    background-image: url(https://github.com/Sahasri02/Space/blob/main/assets/home/background-home-desktop.jpg);
    }
 }
