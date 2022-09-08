@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="C:\Users\20211\OneDrive\Desktop\Medmo\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
+<script type="text/javascript">
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
+
+    <title>Crew</title>
+  </head>
+  <body background="C:\Users\20211\OneDrive\Desktop\Medmo\images\assets\crew\background-crew-desktop.jpg">
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active" >00  HOME</a>
+  <a href="C:\Users\20211\OneDrive\Desktop\Medmo\moon.html">01  DESTINATION</a>
+  <a href="crew.html">02  CREW</a>
+  <a href="C:\Users\20211\OneDrive\Desktop\Medmo\technology.html">03  TECHNOLOGY</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" class="menu-icon"></i>
+  </a>
+</div>
+
+    <p class="meet">02 &nbsp&nbsp&nbsp&nbsp MEET OUR CREW</p>
+    <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images\assets\crew\image-mark-shuttleworth.png" class="crewimg">
+    <div class="text">
+      <p class="designation">MISSION SPECIALIST</p>
+      <p class="name">Mark Shuttleworth</p>
+      <p class="definition">Mark Richard Shuttleworth is the founder and CEO of <br> Canonical, the company behind the Linux-based Ubuntu <br> operating system. Shuttleworth became the first South <br> African to travel to space as a space tourist.</p>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images\assets\crew\image-victor-glover.png" class="crewimg">
+    <div class="text">
+      <p class="designation">Pilot </p>
+      <p class="name">Victor Glover</p>
+      <p class="definition">Pilot on the first operational flight of the SpaceX Crew <br> Dragon to the International Space Station. Glover is a <br>commander in the U.S. Navy where he pilots an F/A-18.He <br> was a crew member of Expedition 64, and served as a <br> station systems flight engineer.</p>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images\assets\crew\image-anousheh-ansari.png" class=crewimg>
+    <div class="text">
+      <p class="designation">Flight Engineer</p>
+      <p class="name">Anousheh Ansari Anousheh</p>
+      <p class="definition">Ansari is an Iranian American engineer and <br> co-founder of Prodea Systems. Ansari was the fourth <br> self-funded space tourist, the first self-funded woman to <br> fly to the ISS, and the first Iranian in space.</p>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images\assets\crew\image-douglas-hurley.png" class="crewimg">
+    <div class="text">
+      <p class="designation">Commander</p>
+      <p class="name">Douglas Hurley </p>
+      <p class="definition">Douglas Gerald Hurley is an American engineer, former <br> Marine Corps pilot and former NASA astronaut. He <br> launched into space for the third time as commander of <br> Crew Dragon Demo-2.</p>
+    </div>
+  </div>
+
+  <!-- Next and previous buttons-->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+  </body>
+</html>
