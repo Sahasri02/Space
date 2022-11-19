@@ -553,7 +553,7 @@ body {
 /*mobile*/
 @media (max-width: 480px) {
     body {
-        background-image: url(https://github.com/Sahasri02/Space/blob/main/assets/home/background-home-mobile.jpg);
+        background-image: url(assets/home/background-home-mobile.jpg);
     }
 		/*.h1{
 			position: absolute;
@@ -935,7 +935,7 @@ margin-top: 0px;
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1025px) {
     body {
-        background-image: url(https://i.postimg.cc/G3j5BMjy/background-home-tablet.jpg);
+        background-image: url("assets/background-home-tablet.jpg");
     }
 		.h1{
 			position: absolute;
