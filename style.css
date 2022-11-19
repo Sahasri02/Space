@@ -1034,6 +1034,6 @@ font-family: 'Bellefair';
 /*desktop*/
 @media (min-width: 1025px) {
     body {
-	    background-image: url(https://github.com/Sahasri02/Space/blob/main/assets/home/background-home-desktop.jpg);
+	    background-image: url(assets/home/background-home-desktop.jpg);
    }
 }
