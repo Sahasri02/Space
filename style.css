@@ -553,7 +553,7 @@ body {
 /*mobile*/
 @media (max-width: 480px) {
     body {
-        background-image: url(assets/home/background-home-mobile.jpg);
+        background-image: url("assets/home/background-home-mobile.jpg");
     }
 		/*.h1{
 			position: absolute;
@@ -1034,6 +1034,6 @@ font-family: 'Bellefair';
 /*desktop*/
 @media (min-width: 1025px) {
     body {
-	    background-image: url(assets/home/background-home-desktop.jpg);
+	    background-image: url("assets/home/background-home-desktop.jpg");
    }
 }
